@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net4.8</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>../../Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../Managed/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Warudo.Core">
+      <HintPath>../../Managed/Warudo.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Warudo.Plugins.Core">
+      <HintPath>../../Managed/Warudo.Plugins.Core.dll</HintPath>
+    </Reference>
+    <!-- Feel free to reference other DLLs here. -->
+  </ItemGroup>
+</Project>
